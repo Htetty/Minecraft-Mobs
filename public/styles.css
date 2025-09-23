@@ -1,0 +1,128 @@
+:root {
+  --maxw: 1100px;
+}
+.container {
+  max-width: var(--maxw);
+}
+
+.hero {
+  position: relative;
+  background: url("/images/background.gif") center/cover no-repeat;
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1.25rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.home-link:hover {
+  color: white;
+  transform: translateY(-2px);
+}
+
+body {
+  background-color: black;
+}
+
+#mob-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#mob-grid .card {
+  cursor: pointer;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+  border: none;
+}
+
+#mob-grid .card h3 {
+  color: white;
+  font-weight: 700;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+#mob-desc {
+  margin-top: 1rem;
+  padding: 0.5rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+}
+
+#mob-grid .card:hover,
+#mob-grid .card:focus {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.mob-card img,
+.mob-hero {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
+.mob-section {
+  border-radius: 0.75rem;
+  padding: 2rem;
+}
+
+.grid h4,
+.grid p,
+.grid desc {
+  color: white !important;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1.25rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.back-btn:hover {
+  color: white;
+  transform: translateY(-2px);
+}
