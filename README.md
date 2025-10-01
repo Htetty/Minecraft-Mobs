@@ -1,10 +1,10 @@
-# WEB103 Project 1 - Minecraft-Mobs
+# WEB103 Project 2 - Minecraft-Mobs
 
 Submitted by: **Htet Htwe**
 
-About this web app: **App description here**
+About this web app: **Webpage to showcase different kinds of mobs in Minecraft.**
 
-Time spent: **3** hours
+Time spent: **1** hours
 
 ## Required Features
 
@@ -13,23 +13,19 @@ The following **required** functionality is completed:
 <!-- Make sure to check off completed functionality below -->
 
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [x] **The web app displays a title**
-- [x] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [x] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [x] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [x] _Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation_
-- [x] **The web app serves an appropriate 404 page when no matching route is defined**
-- [x] **The web app is styled using Picocss**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+- [x] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+- [x] **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT \* FROM tablename;' to display your table contents.**
 
 The following **optional** features are implemented:
 
-- [x] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [ ] The user can search for items by a specific attribute
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/vNSs0nT.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![MinecraftMobs Walkthrough](https://github.com/Htetty/Minecraft-Mobs/blob/main/public/images/demo_minecraft_mobs.gif?raw=true)
 
 <!-- Replace this with whatever GIF tool you used! -->
 
@@ -42,7 +38,7 @@ GIF created with GIPHY Capture.
 
 ## Notes
 
-The only challenge I faced when completing this project was the designing the cards and trying to make my final product into a gif.
+The only challenge I faced during this project was setting up Render Dashboard.
 
 ## License
 
