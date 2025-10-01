@@ -25,8 +25,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![MinecraftMobs Walkthrough](https://github.com/Htetty/Minecraft-Mobs/blob/main/public/images/demo_minecraft_mobs.gif?raw=true)
-
+![MinecraftMobs Walkthrough](https://github.com/user-attachments/assets/24c6fede-e5fd-4192-922e-353db412d7a0)
 <!-- Replace this with whatever GIF tool you used! -->
 
 GIF created with GIPHY Capture.
